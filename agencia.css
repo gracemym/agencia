@@ -1,3 +1,14 @@
-body {
-    background-color: grey;
+
+.footer {
+    background-color: #ffba5a;
+    height: 100%;
+    padding: 9%;
+}
+.titulin {
+    display: flex;
+    justify-content: center;
+}
+.botonenviar {
+    background-color: #ff7657;
+    
 }
