@@ -1,3 +1,54 @@
+<<<<<<< HEAD
 body {
     background-color: #fbeed7;
 }
+=======
+
+/*ESCRIBAN ARRIBA DE ESTO. DESDE ACÁ VA EL FOOTER*/
+.footer {
+    background-color: #ffba5a;
+    height: 100%;
+    padding: 9%;
+}
+.titulin {
+    display: flex;
+    justify-content: center;
+}
+.columnas {
+    display: flex;
+    flex-direction: row;
+}
+.izquierda {
+    width: 50%;
+    margin-right: 10%;
+    background-color: blue;
+}
+textarea {
+    width: 100%;
+}
+input {
+    width: 100%;
+
+}
+.derecha {
+    width: 50%;
+    background-color: green;
+}
+.datos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.botonenviar {
+    background-color: #ff7657;
+    width: 40%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+>>>>>>> c9201e7746dbdf6594e997df4912f4869910e0b3
