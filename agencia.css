@@ -1,18 +1,95 @@
-<<<<<<< HEAD
 body {
     background-color: #fbeed7;
 }
-=======
+
+#navbar {
+    width: 100%;
+   
+}
+
+#navbar a{
+    color: #665c84;
+    text-decoration: none; 
+    margin-left: 40px;
+}
+
+#navbar a:hover {
+    color:#ffba5a;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    flex: 1 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+    display: flex;
+    width: 1020px;
+    margin: auto;
+}
+
+.banner {
+
+    border: solid;
+    border-color: #ffba5a;
+
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.trabajo {
+    width: 100%;
+}
+.trabajo h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #665c84;
+}
+
+.trabajito h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #665c84;
+}
+
+.trabajito h2:hover {
+    color: #ffba5a;
+}
+
+.trabajito p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    
+}
+
+.trabajito img {
+    margin-left: 50px;
+    border: dotted;
+    border-color: black;
+}
 
 /*ESCRIBAN ARRIBA DE ESTO. DESDE ACÁ VA EL FOOTER*/
 .footer {
-    background-color: #ffba5a;
     height: 100%;
     padding: 9%;
-}
+    background-color:#ffba5a;
+    
+    }
 .titulin {
     display: flex;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #665c84;
 }
 .columnas {
     display: flex;
@@ -32,7 +109,8 @@ input {
 }
 .derecha {
     width: 50%;
-    background-color: green;
+    border: solid black;
+    font-family: 'Courier New', Courier, monospace;
 }
 .datos {
     display: flex;
@@ -50,5 +128,5 @@ input {
     align-items: center;
     color: white;
     border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
 }
->>>>>>> c9201e7746dbdf6594e997df4912f4869910e0b3
