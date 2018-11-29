@@ -33,17 +33,19 @@ ul {
     display: flex;
     width: 1020px;
     margin: auto;
+     
+   
 }
 
 .banner {
-
-    border: solid;
-    border-color: black;
-
+  
+border: dotted;
 }
 
 .banner img {
     max-width: 100%;
+    
+   
 }
 
 .trabajo {
@@ -127,4 +129,17 @@ input {
     color: white;
     border-radius: 5px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+@media screen and (max-width: 959px) {
+    .container {
+        width: 100%;
+        }
+    #navbar {
+        width: 100%;}
+    
+    .banner img {
+        width: 100%;
+    }
 }
