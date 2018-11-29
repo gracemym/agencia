@@ -38,7 +38,7 @@ ul {
 .banner {
 
     border: solid;
-    border-color: #ffba5a;
+    border-color: black;
 
 }
 
@@ -52,7 +52,7 @@ ul {
 .trabajo h1 {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #665c84;
+    color: black;
 }
 
 .trabajito h2 {
