@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #navbar {
@@ -81,47 +82,49 @@ border: dotted;
 
 /*ESCRIBAN ARRIBA DE ESTO. DESDE ACÁ VA EL FOOTER*/
 .footer {
-    padding: 9%;
+    padding: 6%;
     text-align: center;
-    background-color: lightgray;
+    background-color: rgb(240, 240, 240)
 }
-
-.columnas {
+.titulin {
+    padding: 2%;
+}
+.centro {
     display: flex;
-    flex-direction: row;
 }
-.izquierda {
+.columna {
     width: 50%;
-    margin-right: 10%;
-    background-color: blue;
+    padding: 1%;
+}
+.datos {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    width: 50%;
+    height: 10%;
 }
 textarea {
     width: 100%;
 }
-input {
-    width: 100%;
-
-}
 .derecha {
-    width: 50%;
+    text-align: justify;
+    font-size: 115%;
 }
-.datos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 2%;
-}
-
 .botonenviar {
     background-color: #ff7657;
-    width: 40%;
+    width: 35%;
     height: 7%;
-    justify-content: center;
-    align-items: center;
     color: white;
-    border-radius: 5px;
-    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+input, textarea, div.botonenviar {
+    border: solid 15px rgb(240, 240, 240);
+    border-radius: 20px;
+}
+
 
 
 @media screen and (max-width: 959px) {
