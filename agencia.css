@@ -79,16 +79,11 @@ ul {
 
 /*ESCRIBAN ARRIBA DE ESTO. DESDE ACÁ VA EL FOOTER*/
 .footer {
-    height: 100%;
     padding: 9%;
-    background-color: #f0f0f0;
-    }
-.titulin {
-    display: flex;
-    justify-content: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: black;
+    text-align: center;
+    background-color: lightgray;
 }
+
 .columnas {
     display: flex;
     flex-direction: row;
@@ -107,8 +102,6 @@ input {
 }
 .derecha {
     width: 50%;
-    border: solid black;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 .datos {
     display: flex;
@@ -121,7 +114,6 @@ input {
     background-color: #ff7657;
     width: 40%;
     height: 7%;
-    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
