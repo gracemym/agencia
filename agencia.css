@@ -78,52 +78,65 @@ border: dotted;
     margin-left: 50px;
     border: dotted;
     border-color: black;
+    
 }
 
 /*ESCRIBAN ARRIBA DE ESTO. DESDE ACÁ VA EL FOOTER*/
 .footer {
     padding: 6%;
     text-align: center;
-    background-color: rgb(240, 240, 240)
+    background-color: rgb(240, 240, 240);
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.titulin {
-    padding: 2%;
+.gris, .columna h3 {
+    color: silver;
 }
-.centro {
+.flexbox {
     display: flex;
 }
 .columna {
-    width: 50%;
+    width: 45%;
     padding: 1%;
-}
-.datos {
-    display: flex;
+    }
+.datos, .columna {
     justify-content: space-between;
 }
 input {
-    width: 50%;
-    height: 10%;
+    width: 45%;
+    height: 7%;
 }
 textarea {
     width: 100%;
+    height: 30%;
+    margin-top: 4%;
 }
-.derecha {
+.columna h3 {
     text-align: justify;
-    font-size: 115%;
 }
 .botonenviar {
     background-color: #ff7657;
     width: 35%;
     height: 7%;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 input, textarea, div.botonenviar {
-    border: solid 15px rgb(240, 240, 240);
-    border-radius: 20px;
+    border-radius: 5px;
 }
+.medios {
+    flex-direction: column;
+}
+.medios img {
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+}
+.derecha {
+    padding-top: 0%;
+}
+
+
 
 
 
