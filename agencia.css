@@ -38,27 +38,41 @@ ul {
      
    
 }
-
+.banner {
+    margin-bottom: 100px;
+    
+}
 .banner img {
     max-width: 100%;
     border: solid;
     border-color:rgb(240, 240, 240);
 }
-
+.espacio {
+    width: 100%;
+    height: 10px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color:rgb(240, 240, 240);
+}
 .trabajo {
     width: 100%;
-    
+       
 }
 .trabajo h1 {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     color:rgb(160,160,160);
+    padding-bottom: 50px;
+    padding-top: 50px;
  }
 
 .trabajito h2 {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    color: black;}
+    color: black;
+    padding: 50px;
+}
+    
 
 .trabajito h2:hover {
     color: red;
@@ -75,6 +89,15 @@ ul {
     border: solid;
     border-color:rgb(240, 240, 240);
         
+}
+
+.banner2 img {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 100%;
+    border: solid;
+    border-color:rgb(240, 240, 240);
 }
 
 /*ESCRIBAN ARRIBA DE ESTO. DESDE ACÁ VA EL FOOTER*/
@@ -171,12 +194,29 @@ margin: 5%;
     .trabajito img {
         width: 100%   
     }     
+
+    .banner2 img {
+        width: 100%
+    }
 }
 
 @media (max-width: 700px) {
 
+
+    .container {
+        width: 100%;
+        }
+    #navbar {
+        width: 100%;}
+    
+    .banner img {
+        width: 100%;
+    }
     .trabajito img {
         width: 100% }   
+    .banner2 img {
+        width: 100%
+    }
     .flexbox.centro {
     flex-direction: column;
     }
