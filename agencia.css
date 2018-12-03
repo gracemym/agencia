@@ -99,7 +99,7 @@ border: dotted;
     display: flex;
 }
 .columna {
-    width: 50%;
+    width: 45%;
     padding: 1%;
     }
 .datos, .columna {
@@ -122,7 +122,7 @@ textarea {
 .botonenviar {
     background-color: #ff7657;
     width: 30%;
-    height: 7%;
+    height: 9%;
     color: white;
     align-items: center;
     justify-content: space-around;
@@ -135,7 +135,7 @@ input, textarea, div.botonenviar {
 }
 .derecha {
     padding-top: 0%;
-    height: 70%;
+    height: 60%;
 }
 .contacto {
 margin: 5%;
