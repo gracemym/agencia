@@ -168,9 +168,15 @@ margin: 5%;
     .banner img {
         width: 100%;
     }
+    .trabajito img {
+        width: 100%   
+    }     
 }
 
 @media (max-width: 700px) {
+
+    .trabajito img {
+        width: 100% }   
     .flexbox.centro {
     flex-direction: column;
     }
