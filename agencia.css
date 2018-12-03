@@ -67,17 +67,7 @@ ul {
     padding-top: 50px;
  }
 
-.trabajito h2 {
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: black;
-    padding: 50px;
-}
-    
 
-.trabajito h2:hover {
-    color: red;
-}
 
 .trabajito p {
     margin-right:40px;
@@ -91,6 +81,14 @@ ul {
     border: solid;
     border-color:rgb(240, 240, 240);
         
+}
+
+.mensaje  {
+    width: 100%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:rgb(160,160,160);
+    padding: 50px;
 }
 
 .banner2 img {
