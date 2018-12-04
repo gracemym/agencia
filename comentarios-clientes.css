@@ -1,0 +1,37 @@
+body {
+    padding: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(140, 140, 140);
+}
+.flexbox {
+    display: flex;
+}
+.principal{
+    width: 70%;
+}
+.negrita {
+    color: rgb(100, 100, 100)
+}
+.costado {
+    flex-direction: column;
+    width: 30%;
+}
+.principal img:nth-child(2) {
+    border: 6px solid rgb(220, 220, 220);
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.principal p:nth-child(4) {
+text-align: justify;
+width: 95%;
+margin-bottom: 4%;
+}
+button {
+    background-color: #ff7657;
+    width: 25%;
+    height: 13%;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
