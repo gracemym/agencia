@@ -100,6 +100,21 @@ ul {
     border-color:rgb(240, 240, 240);
 }
 
+button {
+    background-color: #ff7657;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+button img {
+    margin-right: 5px;
+
+}
+
 /*ESCRIBAN ARRIBA DE ESTO. DESDE ACÁ VA EL FOOTER*/
 .footer {
     padding: 6%;
