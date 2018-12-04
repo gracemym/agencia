@@ -8,6 +8,8 @@ body {
 }
 .principal{
     width: 70%;
+    height: 205%;
+    border-bottom: 2px rgb(220,220,220) solid;
 }
 .negrita {
     color: rgb(100, 100, 100)
@@ -24,14 +26,34 @@ body {
 .principal p:nth-child(4) {
 text-align: justify;
 width: 95%;
-margin-bottom: 4%;
+margin-bottom: 4%; 
 }
 button {
-    background-color: #ff7657;
+    background-color: #e7746f;
     width: 25%;
-    height: 13%;
+    height: 6%;
     color: white;
     align-items: center;
     justify-content: space-around;
     border-radius: 5px;
 }
+.fecha {
+    background-color: rgb(130, 130, 130);
+    color: white;
+    width: 23%;
+    height: 15%;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10%;
+}
+p {
+    line-height: 170%;
+}
+.comentario {
+    height: 60%;
+    margin-bottom: 10%;
+    border-bottom: 2px rgb(220,220,220) solid;
+    text-align: justify;
+}
+
