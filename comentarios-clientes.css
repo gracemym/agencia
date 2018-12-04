@@ -63,6 +63,15 @@ p {
     border-top: 2px solid rgb(220, 220, 220);
     padding-top: 2%;
 }
-.mundo {
-    background-color: blue;
+.recuadro {
+height: 110%;
+border-bottom: 2px solid rgb(220, 220, 220);
+margin-left: 10%;
+}
+.recuadro img {
+    padding-left: 20%;
+}
+.recuadro button {
+    height: 8%;
+    width: 40%;
 }
