@@ -49,6 +49,7 @@ ul {
     
 }
 .banner img {
+    margin-left: 25%;
     max-width: 100%;
     border: solid 6px;
     border-color:rgb(220, 220, 220);
