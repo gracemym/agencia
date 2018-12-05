@@ -107,7 +107,7 @@ ul {
 }
 
 button {
-    background-color: #ff7657;
+    background-color: crimson;
     height: 50px;
     color: white;
     border-radius: 5px;
@@ -160,7 +160,7 @@ textarea {
     text-align: justify;
 }
 .botonenviar {
-    background-color: #e7746f;
+    background-color: crimson;
     width: 30%;
     height: 9%;
     color: white;
