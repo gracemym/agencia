@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navbar {
+    width: 100%;
+   
+}
+
+#navbar a{
+    color:black;
+    text-decoration: none; 
+    
+}
+
+#navbar a:hover {
+    color: red;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    flex: 1 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 45px;
+
+}
+
+#navbar li img{
+    margin-right: 5px;
+}
+
+
+.container {
+    display: flex;
+    width: 1020px;
+    margin: auto;
