@@ -1,0 +1,141 @@
+body {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navbar {
+    width: 100%;
+   
+}
+
+#navbar a{
+    color:black;
+    text-decoration: none; 
+    
+}
+
+#navbar a:hover {
+    color: red;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    flex: 1 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 45px;
+
+}
+
+#navbar li img{
+    margin-right: 5px;
+}
+
+
+.container {
+    display: flex;
+    width: 1020px;
+    margin: auto;
+     
+}
+
+.titulo  {
+
+    width: 100%;
+    margin-top: 100px;
+    color:rgb(160,160,160);
+    
+}
+
+.manos {
+
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.manos p {
+    text-align: justify;
+    margin-left:30%;
+}
+
+.manos img {
+    margin-left: 50%;
+}
+.rounded {
+    width: 300px;
+    height: 220px;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.espacio {
+    width: 100%;
+    height: 10px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color:rgb(220, 220, 220);
+}
+.nenas {
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.rounded2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.foto img {
+
+    margin-right: 50%;
+}
+
+
+.texto {
+    text-align: justify;
+    margin-right: 8%;
+}
+
+.texto2 {
+    text-align: justify;
+    margin-left: 8%;
+}
+
+.pie {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(180, 180, 180);
+}
+
+.redes {
+    width: 100%;
+}
+
+
+.redes li{ 
+     flex: 1 0 auto;
+     font-family: 'Source Sans Pro', sans-serif;
+     margin-left: 45px;
+    
+}
+
+.redes a{
+    color:black;
+    text-decoration: none; 
+    
+}
+
+.redes a:hover {
+    color: red;
+}
+
+.redes li img{
+    margin-right: 5px;
+}
